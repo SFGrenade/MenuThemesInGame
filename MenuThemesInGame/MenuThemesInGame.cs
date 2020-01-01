@@ -1,16 +1,7 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Collections;
-using System.Collections.Generic;
-using GlobalEnums;
 using Modding;
-using ModCommon;
-using ModCommon.Util;
 using UnityEngine;
-using UnityEngine.UI;
-using HutongGames.PlayMaker;
-using HutongGames.PlayMaker.Actions;
 
 namespace MenuThemesInGame
 {
