@@ -61,7 +61,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>rem "Copy the Mod's dll into the Mods folder"
-      copy "$(ProjectDir)$(OutputPath)\$(ProjectName).dll" "$(SolutionDir)$(ProjectName).dll"
       copy "$(ProjectDir)$(OutputPath)\$(ProjectName).dll" "E:\GOG\Hollow Knight Modded\hollow_knight_Data\Managed\Mods\$(ProjectName).dll"
 </PostBuildEvent>
   </PropertyGroup>
